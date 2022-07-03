@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #74EBD5;
+            background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+        }
+
+        .heading {
+            font-family:'Courier New', Courier, monospace;
+            text-align: center;
+            padding-top: 7rem;
+            font-size: xx-large;
+            }
+        
+        input[type=text] {
+            align-content: center;
+            width: 500px;
+            box-sizing: border-box;
+            display: inline-block;
+            padding: 12px 20px;
+            margin: 8px 0;
+            font-weight: 700;
+            }
+
+
+        input[type=email] {
+            align-content: center;
+            width: 500px;
+            box-sizing: border-box;
+            display: inline-block;
+            padding: 12px 20px;
+            margin: 8px 0;
+            font-weight: 700;
+            }
+
+        .form {
+            text-align: center;
+        }
+
+        .form-body {
+            display: flex;
+            flex-direction: column;
+            background-color: azure;
+            border-radius: 10px;
+            text-align: center;
+            justify-content: space-around;
+            width: 700px;
+            margin: auto;
+            margin-top: 7rem;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+
+        .instruction {
+            text-align: center;
+        }
+
+        span {
+            color: blue;
+        }
+
+
+        button {
+        background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+        border-radius: 7rem;
+        color: #FFFFFF;
+        font-size: 16px;
+        justify-content: center;
+        padding: 1rem 1rem;
+        margin-bottom: 12px;
+        width: 40%;
+        cursor: pointer;
+        }
+
+        button:hover {
+        background: white;
+        color: #1E96C8;
+        }
+
+    </style>
+    <title>Sign Up Form</title>
+</head>
+
+<body>
+    <div class="form-body">
+    <div class="heading">
+        <h1>Sign Up</h1>
+    </div>
+    <form>
+    <div class="form">
+        <input type="text" placeholder="First Name">
+        <br>
+        <input type="text" placeholder="last Name">
+        <br>
+        <input type="text" placeholder="Contact No.">
+        <br>
+        <input type="email" placeholder="Email Id">
+    </div>
+    
+    <br>
+    <div class="instruction">
+        <input type="checkbox">
+        <label>I accept the <span>Terms of Use</span> & <span>Privacy Policy</span>.</label>
+    </div>
+    <br>
+    <button>Register Now</button>
+</div>
+</form>
+</body>
+</html>
